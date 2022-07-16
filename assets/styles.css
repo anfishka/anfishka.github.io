@@ -1,0 +1,60 @@
+body{
+    background-color:#E8F9FD;  
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+p{
+    color:#fafbfc;
+    font-weight: bold;
+    background-color: #79DAE8;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+img{
+    display: block;
+    width: 90vw;
+    border-radius: 10px;
+
+}
+.poem-p{
+     font-weight: 400;
+     color: rgb(255, 255, 255);
+     background-color: #0AA1DD;
+
+}
+.tip-p{
+    background-color: #0AA1DD;
+    color: #E8F9FD;
+    z-index: 90;
+    transition: 1s;
+   
+}
+.tip-a{
+    text-decoration: none;
+    color: #c1edf7;
+    z-index: 90;
+    transition: 1s;
+}
+.tip-p:hover{
+background-color: #79DAE8;
+
+
+}
+.tip-a:hover{
+    color: #E8F9FD;
+    transition: 1s;
+}
